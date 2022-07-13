@@ -75,7 +75,7 @@ body {
 }
 
 .nav__links {
-  color: rgb(238, 9, 9);
+  color: rgb(238, 89, 9);
   text-decoration: none;
 }
 
@@ -107,7 +107,21 @@ body {
 
 .hero__title {
   font-size: 3rem;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
 }
+
+@keyframes aparecer {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+
 
 .hero__paragraph {
   margin-bottom: 20px;
@@ -121,7 +135,21 @@ body {
   text-decoration: none;
   padding: 13px 30px;
   border-radius: 32px;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+
 }
+
+@keyframes aparecer {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 
 /* About */
 
