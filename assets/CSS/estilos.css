@@ -230,3 +230,23 @@ body {
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
   z-index: -1; }
+
+.navbar {
+  background-color: none; }
+  .navbar-brand {
+    font-weight: 800;
+    color: #06abf7; }
+
+.nav-link {
+  color: white;
+  text-decoration: none; }
+
+.about__paragraph {
+  padding-top: 4rem; }
+
+.acercade__img {
+  width: 350px;
+  align-self: center; }
+
+.about__title {
+  font-size: 3rem; }

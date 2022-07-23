@@ -309,6 +309,31 @@ body {
   z-index: -1;
 }
 
+.navbar{
+  background-color: none;
+  &-brand{
+    font-weight: 800;
+    color: rgb(6, 171, 247);
+  }
+}
+
+.nav-link{
+  color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.about__paragraph{
+  padding-top: 4rem;
+}
+
+.acercade__img{
+  width: 350px;
+  align-self: center;
+}
+
+.about__title{
+  font-size: 3rem;
+}
 
 
 
