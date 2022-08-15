@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
-@import "variables";
+
 
 :root {
   --padding-container: 100px 0;
@@ -22,6 +22,10 @@ body {
 /* Hero Container */
 
 .hero {
+  @mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+  }
   width: 100;
   height: 100vh;
   min-height: 600px;
@@ -64,6 +68,7 @@ body {
 }
 
 
+
 @keyframes aparecer {
     0%{
       opacity: 0;
@@ -73,6 +78,9 @@ body {
     }
   
   }
+
+
+
 
 
 
@@ -335,5 +343,17 @@ body {
   font-size: 3rem;
 }
 
+/*MAP BOTONES RRSS*/
 
+$btn-group:(
+   btn-primary: #55acee,
+   btn-secondary: #3a5795,
+   btn-third: #c047a7,
+);
+
+@each $name-color, $bgcolor in $btn-group {
+  .btn--#{$name-color}{
+    background-color: $bgcolor;
+  }
+}
 

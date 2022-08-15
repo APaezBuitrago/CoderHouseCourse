@@ -250,3 +250,13 @@ body {
 
 .about__title {
   font-size: 3rem; }
+
+/*MAP BOTONES RRSS*/
+.btn--btn-primary {
+  background-color: #55acee; }
+
+.btn--btn-secondary {
+  background-color: #3a5795; }
+
+.btn--btn-third {
+  background-color: #c047a7; }
